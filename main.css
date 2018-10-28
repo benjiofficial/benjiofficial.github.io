@@ -114,13 +114,13 @@ text-decoration: none;
 }
 @media screen and (min-width: 800px)
 {
-    whitebg {
+    .whitebg {
         width: 80%;
     }
 }
 @media screen and (max-width: 800px)
 {
-    whitebg {
+    .whitebg {
         width: 100%;
     }
 }
