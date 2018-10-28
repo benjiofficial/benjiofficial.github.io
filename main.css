@@ -105,3 +105,17 @@ text-decoration: none;
 #proj:hover {
     color: #757575;
 }
+.projectpage { 
+    line-height: 0px;
+    text-decoration: none;
+    color: #757575;
+    font-size: 15px;
+}
+@media screen and (max-width: 900px)
+{
+    .projectpage {
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+}
