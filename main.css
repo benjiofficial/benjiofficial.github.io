@@ -113,3 +113,15 @@ text-decoration: none;
         width: 0px;
     }
 }
+@media screen and (min-width: 800px)
+{
+    whitebg {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    whitebg {
+        width: 100%;
+    }
+}
