@@ -14,7 +14,6 @@ h1#title {
     text-align: center;
     color: white;
     line-height: 118px;
-    font-size: 48px;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -110,6 +109,15 @@ text-decoration: none;
         display: none;
         height: 0px;
         width: 0px;
+    }    
+    h1#title {
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 900px)
+{
+    h1#title {
+        font-size: 48px;
     }
 }
 @media screen and (min-width: 800px)
