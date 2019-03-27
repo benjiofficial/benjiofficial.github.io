@@ -21,23 +21,30 @@ h1,h2,h3,h4,h5,h6
 }
 div.whitebg {
     background-color: white;
-    overflow: hidden;   
+    overflow: hidden;
     color: #24292e;
     margin:0 auto;
     border-radius: 8px;
 }
+
 .projects {
     background-color: white;
-    width: 20%;
-    padding: 15px 32px;
+
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 1px;
     text-decoration: none;
-    display: inline-block;
-    border: 2px solid #BDBDBD; 
+    border: 2px solid #BDBDBD;
     border-radius: 12px;
     -webkit-transition: .5s; /* Safari */
     transition: .5s;
     min-width: 150px;
-    margin-bottom: 5%;
+    box-sizing: inherit;
+}
+.projectSpace {
+  width: 10% auto;
+  flex: 0.05;
 }
 .projects:hover {
     border: 2px solid #757575;
@@ -97,19 +104,25 @@ text-decoration: none;
 #proj:hover {
     color: #757575;
 }
-.projectpage { 
+.projectpage {
     line-height: 0px;
     text-decoration: none;
     color: #757575;
     font-size: 15px;
 }
+.pinTextTop {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 58% !important;
+}
+.pinTextBtm {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 42% !important;
+}
 @media screen and (max-width: 900px)
 {
-    .projectpage {
-        display: none;
-        height: 0px;
-        width: 0px;
-    }    
+
     h1#title {
         font-size: 35px;
     }
@@ -120,15 +133,35 @@ text-decoration: none;
         font-size: 48px;
     }
 }
-@media screen and (min-width: 800px)
+@media screen and (min-width: 940px)
 {
     .whitebg {
         width: 80%;
     }
 }
-@media screen and (max-width: 800px)
+@media screen and (max-width: 940px)
 {
     .whitebg {
         width: 100%;
     }
+}
+@media screen and (min-width: 750px)
+{
+  .projects {
+    flex: 0.5;
+      width: 20%;
+  }
+  .project_container {
+    display: inline-flex;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .projects {
+    display: block;
+    width: 75%;
+    margin-bottom: 4%;
+  }
 }
