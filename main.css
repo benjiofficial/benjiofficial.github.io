@@ -1,0 +1,167 @@
+body {
+    background-image: linear-gradient(to left, #03A9F4,#FF4081) !important;
+    height: 100%;
+    font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;
+    font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;
+    font-style:normal;
+    margin-top:0;
+    font-size:1rem;
+    font-weight:400;
+    line-height:2rem;
+}
+h1#title {
+    text-align: center;
+    color: white;
+    line-height: 118px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 600;
+}
+div.whitebg {
+    background-color: white;
+    overflow: hidden;
+    color: #24292e;
+    margin:0 auto;
+    border-radius: 8px;
+}
+
+.projects {
+    background-color: white;
+
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    border: 2px solid #BDBDBD;
+    border-radius: 12px;
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+    min-width: 150px;
+    box-sizing: inherit;
+}
+.projectSpace {
+  width: 10% auto;
+  flex: 0.05;
+}
+.projects:hover {
+    border: 2px solid #757575;
+}
+.projects #title {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 500;
+    line-height: 0;
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+}
+.projects #title:hover {
+    text-decoration: underline;
+}
+.projects #desc {
+    text-decoration: none;
+    font-size: 14px;
+    color: #757575;
+    font-weight: 300;
+    line-height: 15px;
+}
+.projects .lang {
+    padding: 17px;
+    width: 20%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 0px;
+    border: none;
+    text-align: center;
+}
+
+#cpp:hover {
+    padding: 15px;
+    border: 2px solid #009688;
+    border-radius: 8px;
+}
+#html:hover {
+    padding: 15px;
+    border: 2px solid #303F9F;
+    border-radius: 8px;
+}
+#css:hover {
+    padding: 15px;
+    border: 2px solid #D32F2F;
+    border-radius: 8px;
+}
+#proj {
+text-decoration: none;
+}
+#proj:hover {
+    color: #757575;
+}
+.projectpage {
+    line-height: 0px;
+    text-decoration: none;
+    color: #757575;
+    font-size: 15px;
+}
+.pinTextTop {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 58% !important;
+}
+.pinTextBtm {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 42% !important;
+}
+@media screen and (max-width: 900px)
+{
+
+    h1#title {
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 900px)
+{
+    h1#title {
+        font-size: 48px;
+    }
+}
+@media screen and (min-width: 940px)
+{
+    .whitebg {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 940px)
+{
+    .whitebg {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 750px)
+{
+  .projects {
+    flex: 0.5;
+      width: 20%;
+  }
+  .project_container {
+    display: inline-flex;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .projects {
+    display: block;
+    width: 75%;
+    margin-bottom: 4%;
+  }
+}
