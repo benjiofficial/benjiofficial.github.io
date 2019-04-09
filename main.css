@@ -29,11 +29,7 @@ div.whitebg {
 
 .projects {
     background-color: white;
-
-    padding-top: 15px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 5px;
+    padding: 15px 32px 15px 32px;
     text-decoration: none;
     border: 2px solid #BDBDBD;
     border-radius: 12px;
