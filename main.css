@@ -80,19 +80,16 @@ div.whitebg {
 }
 
 #cpp:hover {
-    padding: 15px;
-    border: 2px solid #009688;
-    border-radius: 8px;
+    color:  #009688;
+    text-decoration: underline #009688;
 }
 #html:hover {
-    padding: 15px;
-    border: 2px solid #303F9F;
-    border-radius: 8px;
+    color:  #303F9F;
+    text-decoration: underline #303F9F;
 }
 #css:hover {
-    padding: 15px;
-    border: 2px solid #D32F2F;
-    border-radius: 8px;
+    color:  #D32F2F;
+    text-decoration: underline #D32F2F;
 }
 #proj {
 text-decoration: none;
